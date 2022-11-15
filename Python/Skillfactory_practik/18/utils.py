@@ -11,7 +11,7 @@ class Converter:
     def convert(quote: str, base: str, amount: str):
 
         if quote == base:
-            raise ConvertionException('Вы пытаетесь конвертировать одинаковые валюты, не надо так! &#128517')
+            raise ConvertionException('Вы пытаетесь конвертировать одинаковые валюты, не надо так! ;) ')
         try:
             quote_tik = keys[quote]
             base_tik = keys[base]
